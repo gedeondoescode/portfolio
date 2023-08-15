@@ -2,9 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import SocialButton from '../components/SocialButton.astro';
 import Icon from 'astro-icon';
+import { SocialInfo } from '../static-info';
 ---
 
-<Layout title="Frontend Developer - Gedeon Sainrival">
+<Layout title="Software Developer - Gedeon Sainrival">
 	<main>
 		<div class="px-10 pt-20">
 				<section class="max-w-[880px] mx-auto">
@@ -15,7 +16,7 @@ import Icon from 'astro-icon';
 						</h1>
 					</div>
 					<div class="mt-12 text-xl space-y-5 text-accent tracking-[0.5px] leading-[1.7rem] ">
-						<h2 class="font-heading font-bold text-lg md:text-2xl uppercase text-[#dfdfdf] tracking-normal">About Me</h2>  
+						<h2 class="font-heading font-bold text-lg md:text-3xl uppercase text-[#dfdfdf] tracking-normal">About Me</h2>  
 						<p>
 							Hi, I'm Gedeon and I'm a nineteen year old student and software developer based out
 							in South Florida. I specialize in primarily frontend development for web based React
@@ -37,21 +38,19 @@ import Icon from 'astro-icon';
 							productive throughout your day (no working link yet).  
 						</p>
 					</div>
-					<div class="flex">
+					<div class="flex mb-10">
 					<div class="flex pt-5 space-x-2">
-						<SocialButton icon='bxl-instagram' link='https://instagram.com/gedeonartiste'/>
-						<SocialButton icon='bxl-linkedin' link='https://linkedin.com/in/gsainrival'/>
-						<SocialButton icon='bxl-github' link='https://github.com/gedeondoescode'/>
-
+						{
+							SocialInfo.map((social) => (
+							<SocialButton icon={social.icon} link={social.link}/>
+							))
+						}
 					</div>
 					<a href="mailto:hello@gedeondoescode.com" class="items-center flex flex-row justify-center bg-primary hover:bg-[#2e2e2e] transition-colors px-5 py-1 mt-5 rounded-lg ml-8 text-accent hover:text-[#dfdfdf] w-50">
 						<Icon name="bxs-envelope" pack="bx" class="w-6 h-6 md:block hidden mr-3"/>
 						Email Me!
 					</a>
 				</div>
-				</section>
-				<section>
-					<!-- Work experience section -->
 				</section>
 			</div>
 		</div>
