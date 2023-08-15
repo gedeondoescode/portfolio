@@ -13,7 +13,7 @@ interface Props {
 const { href, company, yearFrom, yearTo, body, thumbnail } = Astro.props;
 ---
 <div class="flex flex-col md:flex-row bg-primary border border-[#2e2e2e] p-8 mt-5 rounded-lg">
-	<Image src={thumbnail} alt="Wevise logo" width={128} height={128} class="mr-8 rounded-lg w-20 md:w-full h-20 md:h-full mb-3 md:mb-0" />
+	<Image src={thumbnail} alt="Wevise logo" width={130} height={130} class="mr-8 rounded-lg w-20 max-w-[130px] max-h-[130px] md:w-full h-20 md:h-full mb-3 md:mb-0" />
 
 <div class="flex flex-col">
 	<div class=" flex flex-col md:flex-row space-x-0 md:space-x-4">
