@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import SocialButton from '../components/SocialButton.astro';
+import Icon from 'astro-icon';
 ---
 
 <Layout title="Frontend Developer - Gedeon Sainrival">
@@ -43,7 +44,10 @@ import SocialButton from '../components/SocialButton.astro';
 						<SocialButton icon='bxl-github' link='https://github.com/gedeondoescode'/>
 
 					</div>
-					<a href="mailto:hello@gedeondoescode.com" class="items-center flex justify-center bg-primary hover:bg-[#2e2e2e] transition-colors px-5 py-1 mt-5 rounded-lg ml-8 text-accent hover:text-[#dfdfdf]">Email Me</a>
+					<a href="mailto:hello@gedeondoescode.com" class="items-center flex flex-row justify-center bg-primary hover:bg-[#2e2e2e] transition-colors px-5 py-1 mt-5 rounded-lg ml-8 text-accent hover:text-[#dfdfdf] w-50">
+						<Icon name="bxs-envelope" pack="bx" class="w-6 h-6 mr-3"/>
+						Email Me!
+					</a>
 				</div>
 				</section>
 				<section>
