@@ -1,31 +1,45 @@
 ---
-import { Image } from 'astro:assets'
-import Logo from '../../assets/wevise.jpg'
+import { Image } from "astro:assets";
 interface Props {
-	thumbnail?: any
-	company: string;
-	yearFrom: number | string;
-	yearTo?:number | string; 
-	href?: string;
-	body?: string
+  thumbnail?: any;
+  company: string;
+  yearFrom: number | string;
+  yearTo?: number | string;
+  href?: string;
+  body?: string;
 }
 
 const { href, company, yearFrom, yearTo, body, thumbnail } = Astro.props;
 ---
-<div class="flex flex-col md:flex-row bg-primary border border-[#2e2e2e] p-8 mt-5 rounded-lg">
-	<Image src={thumbnail} alt="Wevise logo" width={130} height={130} class="mr-8 rounded-lg w-20 max-w-[130px] max-h-[130px] md:w-full h-20 md:h-full mb-3 md:mb-0" />
 
-<div class="flex flex-col">
-	<div class=" flex flex-col md:flex-row space-x-0 md:space-x-4">
-		<a href={href} target="_blank" class="w-fit">
-			<h3 class="text-lg md:text-2xl font-extrabold font-heading opacity-75 hover:opacity-100 transition-opacity duration-300">{company}</h3>
-		</a>
-		<span class="w-fit">
-		<p class="text-lg pt-0.5 font-heading font-semibold text-accent">{yearFrom} - {yearTo}</p>
-	</span>
-	</div>
-	<div class="mt-3 font-sans">
-		<p>{body}</p>
-	</div>
-</div>
+<div
+  class="flex flex-col md:flex-row bg-primary border border-[#2e2e2e] p-8 mt-5 rounded-lg"
+>
+  <Image
+    src={thumbnail}
+    alt="Logo"
+    width={130}
+    height={130}
+    class="mr-8 rounded-lg w-20 max-w-[130px] max-h-[130px] md:w-full h-20 md:h-full mb-3 md:mb-0"
+  />
+
+  <div class="flex flex-col">
+    <div class="flex flex-col md:flex-row space-x-0 md:space-x-4">
+      <a href={href} target="_blank" class="w-fit">
+        <h3
+          class="text-lg md:text-2xl font-extrabold font-heading opacity-75 hover:opacity-100 transition-opacity duration-300"
+        >
+          {company}
+        </h3>
+      </a>
+      <span class="w-fit">
+        <p class="text-lg pt-0.5 font-heading font-semibold text-accent">
+          {yearFrom} - {yearTo}
+        </p>
+      </span>
+    </div>
+    <div class="mt-3 font-sans">
+      <p>{body}</p>
+    </div>
+  </div>
 </div>
