@@ -15,7 +15,7 @@ type SocialProps = {
 
 export const JobInfo: JobProps[] = [
   {
-    thumbnail: "../public/Pipeline.png",
+    thumbnail: "/src/assets/images/Pipeline.png",
     href: "https://buildpipeline.ai",
     company: "Pipeline",
     yearFrom: "August 2023",
@@ -23,7 +23,7 @@ export const JobInfo: JobProps[] = [
     desc: "Pipeline AI focuses on creating the perfect AI tool to gather leads, write cold emails, and manage and run campaigns for businesses looking for a cheaper alternative. Currently, my primary duty is to build and update some of the UI components and pages for our MVP set to be released for August 2023."
   },
   {
-    thumbnail: "../public/wevise.jpg",
+    thumbnail: "/src/assets/images/wevise.jpg",
     href: "https://wevise.org",
     company: "Wevise",
     yearFrom: "February 2023",
@@ -31,7 +31,7 @@ export const JobInfo: JobProps[] = [
     desc: "Wevise is a nonprofit with a mission to make a career in tech possible by providing free mentorship from industry professionals. Throughout the initial development stages, I focused on configuring our design style and creating many of the pages and components that make up what Wevise is now."
   },
   {
-    thumbnail: "../public/School Simplified.png",
+    thumbnail: "/src/assets/images/School Simplified.png",
     href: "https://schoolsimplified.org",
     company: "School Simplified",
     yearFrom: "April 2022",
