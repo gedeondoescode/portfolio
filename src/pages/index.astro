@@ -1,58 +1,74 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import SocialButton from '../components/SocialButton.astro';
-import Icon from 'astro-icon';
-import { SocialInfo } from '../static-info';
+import Layout from "../layouts/Layout.astro";
+import SocialButton from "../components/SocialButton.astro";
+import Icon from "astro-icon";
+import { SocialInfo } from "../static-info";
 ---
 
 <Layout title="Software Developer - Gedeon Sainrival">
-	<main>
-		<div class="px-10 pt-20">
-				<section class="max-w-[880px] mx-auto">
-					<div>
-						<h1 class="container flex flex-col font-heading font-bold uppercase text-[#dfdfdf] tracking-tighter space-y-1">
-							<span class="text-3xl md:text-6xl">Gedeon Sainrival</span>
-							<span class="text-lg md:text-4xl ">Software Developer</span>
-						</h1>
-					</div>
-					<div class="mt-12 text-xl space-y-5 text-accent tracking-[0.5px] leading-[1.7rem] ">
-						<h2 class="font-heading font-bold text-lg md:text-3xl uppercase text-[#dfdfdf] tracking-normal">About Me</h2>  
-						<p>
-							Hi, I'm Gedeon and I'm a nineteen year old student and software developer based out
-							in South Florida. I specialize in primarily frontend development for web based React
-							applications. My tools usually consist of TailwindCSS for styling, Daisy UI and Chakra
-							UI for prebuilt components, NextJS for messing around with full stack applications 
-							and finally, Vercel and Render to manage and deploy my applications.
-						</p>
-						<p>
-							Currently, I'm working with Pipeline AI as a software developer where I help build out 
-							an application for sales teams to quickly and easily create cold outreach messages and
-							email. I'm also volunteering for Wevise, a non profit organization for mentors and mentees. 
-							My role there is to help with building beautiful interfaces and components.
-						</p>
-						<p>
-							In my free time, I often enjoy learning and building small scale applications with new tech 
-							and contributing to open source projects with the goal in mind that one day I'd be able to
-							apply what I've learn with my own personal projects. One of them being Crescent, a distraction-free
-							desktop application designed to create a unified workspace for everything you need to remain
-							productive throughout your day (no working link yet).  
-						</p>
-					</div>
-					<div class="flex mb-10">
-					<div class="flex pt-5 space-x-2">
-						{
-							SocialInfo.map((social) => (
-							<SocialButton icon={social.icon} link={social.link}/>
-							))
-						}
-					</div>
-					<a href="mailto:hello@gedeondoescode.com" class="items-center flex flex-row justify-center bg-primary hover:bg-[#2e2e2e] transition-colors px-5 py-1 mt-5 rounded-lg ml-8 text-accent hover:text-[#dfdfdf] w-50">
-						<Icon name="bxs-envelope" pack="bx" class="w-6 h-6 mr-0 md:mr-3"/>
-						<span class="md:block hidden">Email Me!</span>
-					</a>
-				</div>
-				</section>
-			</div>
-		</div>
-	</main>
+  <main>
+    <div class="px-10 pt-14">
+      <section class="max-w-[880px] mx-auto">
+        <div>
+          <h1
+            class="container flex flex-col font-heading font-bold uppercase text-[#dfdfdf] tracking-tighter space-y-1"
+          >
+            <span class="text-3xl md:text-6xl">Gedeon Sainrival</span>
+            <span class="text-lg md:text-4xl">Software Developer</span>
+          </h1>
+        </div>
+        <div
+          class="mt-12 text-xl space-y-5 text-accent tracking-[0.5px] leading-[1.7rem]"
+        >
+          <h2
+            class="font-heading font-bold text-lg md:text-3xl uppercase text-[#dfdfdf] tracking-normal"
+          >
+            About Me
+          </h2>
+          <p>
+            Hi, I'm Gedeon and I'm a nineteen year old student and software
+            developer based out in South Florida. I specialize in primarily
+            frontend development for web based React applications. My tools
+            usually consist of TailwindCSS for styling, Daisy UI and Chakra UI
+            for prebuilt components, NextJS for messing around with full stack
+            applications and finally, Vercel and Render to manage and deploy my
+            applications.
+          </p>
+          <p>
+            Currently, I'm working with Pipeline AI as a software developer
+            where I help build out an application for sales teams to quickly and
+            easily create cold outreach messages and email. I'm also
+            volunteering for Wevise, a non profit organization for mentors and
+            mentees. My role there is to help with building beautiful interfaces
+            and components.
+          </p>
+          <p>
+            In my free time, I often enjoy learning and building small scale
+            applications with new tech and contributing to open source projects
+            with the goal in mind that one day I'd be able to apply what I've
+            learn with my own personal projects. One of them being Crescent, a
+            distraction-free desktop application designed to create a unified
+            workspace for everything you need to remain productive throughout
+            your day (no working link yet).
+          </p>
+        </div>
+        <div class="flex mb-10">
+          <div class="flex pt-5 space-x-2">
+            {
+              SocialInfo.map((social) => (
+                <SocialButton icon={social.icon} link={social.link} />
+              ))
+            }
+          </div>
+          <a
+            href="mailto:hello@gedeondoescode.com"
+            class="items-center flex flex-row justify-center bg-primary hover:bg-[#2e2e2e] transition-colors px-5 py-1 mt-5 rounded-lg ml-8 text-accent hover:text-[#dfdfdf] w-50"
+          >
+            <Icon name="bxs-envelope" pack="bx" class="w-6 h-6 mr-0 md:mr-3" />
+            <span class="md:block hidden">Email Me!</span>
+          </a>
+        </div>
+      </section>
+    </div>
+  </main>
 </Layout>

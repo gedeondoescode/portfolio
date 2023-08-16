@@ -1,11 +1,14 @@
 ---
-import Icon from 'astro-icon';
+import Icon from "astro-icon";
 
-
-const {icon, link} = Astro.props
+const { icon, link } = Astro.props;
 ---
 
-<a href={link} target="_blank" rel="noopener noreferrer" class="p-2 hover:bg-[#2e2e2e] text-accent hover:text-[#eaeaea] flex w-fit rounded-lg transition-colors">
-    <Icon name={icon} pack="bx" class="w-8 h-8 "/>
+<a
+  href={link}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="p-2 hover:bg-[#2e2e2e] text-accent hover:text-[#eaeaea] flex w-fit rounded-lg transition-colors"
+>
+  <Icon name={icon} pack="bx" class="w-8 h-8" />
 </a>
-
