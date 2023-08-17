@@ -57,4 +57,8 @@ export const SocialInfo: SocialProps[] = [
     icon: "bxl-github",
     link: "https://github.com/gedeondoescode"
   },
+  {
+    icon: "bxl-twitter",
+    link: "https://twitter.com/by_gedeon"
+  },
 ]
