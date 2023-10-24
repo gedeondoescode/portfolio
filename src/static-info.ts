@@ -31,7 +31,7 @@ export const JobInfo: JobProps[] = [
     href: "https://wevise.org",
     company: "Wevise",
     yearFrom: "February 2023",
-    yearTo: "Current",
+    yearTo: "October 2023",
     desc: "Wevise is a nonprofit with a mission to make a career in tech possible by providing free mentorship from industry professionals. Throughout the initial development stages, I focused on configuring our design style and creating many of the pages and components that make up what Wevise is now."
   },
   {
