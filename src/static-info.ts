@@ -19,14 +19,6 @@ type SocialProps = {
 
 export const JobInfo: JobProps[] = [
   {
-    thumbnail: PipelineLogo,
-    href: "https://buildpipeline.ai",
-    company: "Pipeline",
-    yearFrom: "August 2023",
-    yearTo: "Current",
-    desc: "Pipeline AI focuses on creating the perfect AI tool to gather leads, write cold emails, and manage and run campaigns for businesses looking for a cheaper alternative. Currently, my primary duty is to build and update some of the UI components and pages for our MVP set to be released for August 2023."
-  },
-  {
     thumbnail: WeviseLogo,
     href: "https://wevise.org",
     company: "Wevise",
