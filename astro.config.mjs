@@ -1,14 +1,25 @@
 import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
 
+import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
+import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()],
-  experimental: {
-    assets: true
-  },
+  integrations: [icon({
+    svgoOptions: {
+      plugins: [
+        "preset-default",
+        {
+          name: "convertColors",
+          params: { currentColor: true },
+        },
+      ],
+    },
+  }), tailwind()],
+  experimental: {},
   output: "hybrid",
-  adapter: vercel()
+  adapter: vercel({
+    imageService: true
+  })
 });

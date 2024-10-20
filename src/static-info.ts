@@ -38,19 +38,19 @@ export const JobInfo: JobProps[] = [
 
 export const SocialInfo: SocialProps[] = [
   {
-    icon: "bxl-instagram",
+    icon: "instagram",
     link: "https://instagram.com/gedeonartiste"
   },
   {
-    icon: "bxl-linkedin",
+    icon: "linkedin",
     link: "https://linkedin.com/in/gsainrival"
   },
   {
-    icon: "bxl-github",
+    icon: "github",
     link: "https://github.com/gedeondoescode"
   },
   {
-    icon: "bxl-twitter",
-    link: "https://twitter.com/by_gedeon"
+    icon: "bluesky",
+    link: "https://bsky.app/profile/gedeondoescode.com"
   },
 ]

@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import SocialButton from "../components/SocialButton.astro";
-import Icon from "astro-icon";
+import { Icon } from "astro-icon/components";
 import { SocialInfo } from "../static-info";
 ---
 
@@ -26,29 +26,27 @@ import { SocialInfo } from "../static-info";
             About Me
           </h2>
           <p>
-            Hi, I'm Gedeon and I'm a twenty year old student and software
+            Hi, I'm Gedeon and I'm a twenty-one year old student and software
             developer based out in South Florida. I specialize in primarily
             frontend development for web based React applications. My tools
-            usually consist of TailwindCSS for styling, Radix UI and Chakra UI
-            for prebuilt components, NextJS for messing around with full stack
-            applications and finally, Vercel and Render to manage and deploy my
-            applications.
+            usually consist of TailwindCSS for styling, NextJS for messing
+            around with full stack applications and finally, Vercel to manage
+            and deploy my applications. More recently, I've been dabbling with
+            C++ and Zig with hopes to make some low level contributions in the
+            future.
           </p>
           <p>
-            Currently, I'm working on an open source project called Commet
-            where I help with developing and maintaining this new Matrix client, built with Flutter. In the past, I've also
-            volunteered for Wevise, a non profit organization for mentors and
-            mentees. My role there was to help with building beautiful interfaces
-            and components.
+            Currently, I'm working on an open source project called Commet where
+            I help with developing and maintaining this new Matrix client, built
+            with Flutter. In the past, I've also volunteered for Wevise, a non
+            profit organization for mentors and mentees. My role there was to
+            help with building beautiful interfaces and components.
           </p>
           <p>
             In my free time, I often enjoy learning and building small scale
             applications with new tech and contributing to open source projects
             with the goal in mind that one day I'd be able to apply what I've
-            learn with my own personal projects. One of them being Crescent, a
-            distraction-free desktop application designed to create a unified
-            workspace for everything you need to remain productive throughout
-            your day (no working link yet).
+            learn with my own personal projects.
           </p>
         </div>
         <div class="flex mb-10">
@@ -63,7 +61,7 @@ import { SocialInfo } from "../static-info";
             href="mailto:hello@gedeondoescode.com"
             class="items-center flex flex-row justify-center bg-primary hover:bg-[#2e2e2e] transition-colors px-5 py-1 mt-5 rounded-lg ml-8 text-accent hover:text-[#dfdfdf] w-50"
           >
-            <Icon name="bxs-envelope" pack="bx" class="w-6 h-6 mr-0 md:mr-3" />
+            <Icon name="simple-icons:maildotru" class="w-6 h-6 mr-0 md:mr-3" />
             <span class="md:block hidden">Email Me!</span>
           </a>
         </div>
