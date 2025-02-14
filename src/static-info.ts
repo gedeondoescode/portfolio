@@ -1,5 +1,4 @@
 import WeviseLogo from '../assets/images/wevise.jpg'
-import PipelineLogo from '../assets/images/Pipeline.png'
 import SSLogo from '../assets/images/School Simplified.png'
 
 type JobProps = {
@@ -8,7 +7,7 @@ type JobProps = {
   company: string
   yearFrom: number | string
   yearTo?: number | string
-  desc?: string 
+  desc?: string
 }
 
 type SocialProps = {
