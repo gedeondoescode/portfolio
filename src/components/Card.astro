@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
 interface Props {
-  thumbnail?: any;
+  thumbnail: ImageMetadata | Promise<{default: ImageMetadata}>;
   company: string;
   yearFrom: number | string;
   yearTo?: number | string;

@@ -1,8 +1,8 @@
 import WeviseLogo from '../assets/images/wevise.jpg'
 import SSLogo from '../assets/images/School Simplified.png'
 
-type JobProps = {
-  thumbnail?: unknown
+export type JobProps = {
+  thumbnail?: ImageMetadata
   href: string
   company: string
   yearFrom: number | string
