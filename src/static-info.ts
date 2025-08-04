@@ -13,7 +13,6 @@ type JobProps = {
 type SocialProps = {
   icon: string
   link: string
-  name?: string
 }
 
 export const JobInfo: JobProps[] = [
