@@ -570,17 +570,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource-variable/unbounded@npm:^5.1.1":
-  version: 5.1.1
-  resolution: "@fontsource-variable/unbounded@npm:5.1.1"
-  checksum: 10c0/e3bac75f5e8cce98ef574d7fb5967a536201f2c8c06cae5dc37da298332622de89c417f3f927b99bda27b125a78a62b9bf312c737666acf5220c8417b52d4abc
+"@fontsource-variable/unbounded@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@fontsource-variable/unbounded@npm:5.2.6"
+  checksum: 10c0/785d44e0bd1abdd3c4143edf554414e640197d64974483969195bf04ab9f2d79ba6fd47344e73918360688c02850010af21afb7476cada831e96b32a9b506b67
   languageName: node
   linkType: hard
 
-"@fontsource/be-vietnam-pro@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "@fontsource/be-vietnam-pro@npm:5.1.0"
-  checksum: 10c0/08bf4e7a260494261ebdd60f6968edf99d813371f7e48984e28721add6c4374eb7ce332bf802859180a0aaa56207b3ad596fe5c1c6666b8152b60db4e5cfc584
+"@fontsource/be-vietnam-pro@npm:^5.2.6":
+  version: 5.2.6
+  resolution: "@fontsource/be-vietnam-pro@npm:5.2.6"
+  checksum: 10c0/ec879044bb3898d1f7965eebf110860d18a52f70afdb1b75488e43c651db717865368e2c772369dd9f7112765f7bb98c1bf4dc44a6827e3c56f8d129fb0d47ff
   languageName: node
   linkType: hard
 
@@ -4816,15 +4816,15 @@ __metadata:
   dependencies:
     "@astrojs/tailwind": "npm:^5.1.2"
     "@astrojs/vercel": "npm:^7.8.2"
-    "@fontsource-variable/unbounded": "npm:^5.1.1"
-    "@fontsource/be-vietnam-pro": "npm:^5.1.0"
+    "@fontsource-variable/unbounded": "npm:^5.2.6"
+    "@fontsource/be-vietnam-pro": "npm:^5.2.6"
     "@iconify-json/simple-icons": "npm:^1.2.9"
     astro: "npm:^4.16.6"
     astro-icon: "npm:^1.1.1"
-    prettier: "npm:^3.3.3"
+    prettier: "npm:^3.6.2"
     prettier-plugin-astro: "npm:^0.14.1"
     tailwindcss: "npm:^3.4.14"
-    typescript: "npm:^5.6.3"
+    typescript: "npm:^5.9.2"
   languageName: unknown
   linkType: soft
 
@@ -4969,12 +4969,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "prettier@npm:3.3.3"
+"prettier@npm:^3.6.2":
+  version: 3.6.2
+  resolution: "prettier@npm:3.6.2"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/b85828b08e7505716324e4245549b9205c0cacb25342a030ba8885aba2039a115dbcf75a0b7ca3b37bc9d101ee61fab8113fc69ca3359f2a226f1ecc07ad2e26
+  checksum: 10c0/488cb2f2b99ec13da1e50074912870217c11edaddedeadc649b1244c749d15ba94e846423d062e2c4c9ae683e2d65f754de28889ba06e697ac4f988d44f45812
   languageName: node
   linkType: hard
 
@@ -5964,23 +5964,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.6.3":
-  version: 5.6.3
-  resolution: "typescript@npm:5.6.3"
+"typescript@npm:^5.9.2":
+  version: 5.9.2
+  resolution: "typescript@npm:5.9.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/44f61d3fb15c35359bc60399cb8127c30bae554cd555b8e2b46d68fa79d680354b83320ad419ff1b81a0bdf324197b29affe6cc28988cd6a74d4ac60c94f9799
+  checksum: 10c0/cd635d50f02d6cf98ed42de2f76289701c1ec587a363369255f01ed15aaf22be0813226bff3c53e99d971f9b540e0b3cc7583dbe05faded49b1b0bed2f638a18
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.6.3#optional!builtin<compat/typescript>":
-  version: 5.6.3
-  resolution: "typescript@patch:typescript@npm%3A5.6.3#optional!builtin<compat/typescript>::version=5.6.3&hash=8c6c40"
+"typescript@patch:typescript@npm%3A^5.9.2#optional!builtin<compat/typescript>":
+  version: 5.9.2
+  resolution: "typescript@patch:typescript@npm%3A5.9.2#optional!builtin<compat/typescript>::version=5.9.2&hash=cef18b"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/7c9d2e07c81226d60435939618c91ec2ff0b75fbfa106eec3430f0fcf93a584bc6c73176676f532d78c3594fe28a54b36eb40b3d75593071a7ec91301533ace7
+  checksum: 10c0/66fc07779427a7c3fa97da0cf2e62595eaff2cea4594d45497d294bfa7cb514d164f0b6ce7a5121652cf44c0822af74e29ee579c771c405e002d1f23cf06bfde
   languageName: node
   linkType: hard
 
